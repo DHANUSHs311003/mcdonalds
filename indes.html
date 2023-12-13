@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Mcdonalds Francise</title>
+</head>
+<body>
+
+    <div id="status" class="blurred-background">
+         <div id="top">
+            <h1 id="Mh1">Please select the food you want to order </h1>
+            <h2 id="orderid">Your order id : </h2>
+         </div>
+         <div id="img-sec"> 
+            <img src="https://i.pinimg.com/originals/b1/c7/0f/b1c70f2417834b8f627916970d64a721.png" alt="demo" id="demo">
+         </div>
+         <div id="food-items">
+           <div>
+            <label for="">Burger 🍔</label>
+            <input type="radio" value="Burger">
+           </div>
+           <div>
+            <label for="">Sausage Burrito 🌯</label>
+            <input type="radio" value="Sausage Burrito">
+           </div>
+           <div>
+            <label for="">Hot-wings 🍗</label>
+            <input type="radio" value="Hot-wings">
+           </div>
+            <div>
+            <label for="">Pizza 🍕</label>
+            <input type="radio" value="Pizza">
+            </div>
+        </div>
+    
+       <div id="button">
+        <button onclick="orderFood()" id="order">Order food</button>
+       </div>
+    </div>
+   
+</body>
+<script src="./main.js"></script>
+</html>
